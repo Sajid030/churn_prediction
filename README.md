@@ -2,6 +2,8 @@
 
 Customer churn prediction is a crucial task in business analytics that involves identifying customers who are likely to cancel their subscription or stop using a service. This project aims to build a predictive model that can anticipate customer churn and provide actionable insights to retain valuable customers.
 
+Link: [Test my app](https://sajid030-churn-predictor.hf.space/)
+
 ## Datasets
 
 The project utilizes:
@@ -18,14 +20,12 @@ The following libraries are required to run the code:
 - seaborn
 - scikit-learn
 - imblearn
+- xgboost
+- flask
+- gunicorn
 
 You can install the required libraries using the following command:
 
 ```
-pip install pandas numpy matplotlib seaborn scikit-learn imblearn
+pip install requirements.txt
 ```
-
-## Acknowledgments
-
-This project is part of the TechnoHacks Virtual Internship Program August Batch 2023. Special thanks to the program organizers for providing this opportunity to enhance my data science skills.
-
