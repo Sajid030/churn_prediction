@@ -1,0 +1,79 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f5f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered container with subtle card style */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Page title */
+h1 {
+    text-align: center;
+    color: #2d3436;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: 500;
+    color: #444;
+}
+
+/* Inputs & dropdowns */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 14px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background: #fdfdfd;
+}
+
+/* Inputs focus effect */
+input:focus, select:focus {
+    border-color: #00897b; /* muted teal accent */
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 137, 123, 0.3);
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00897b; /* teal accent */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #00695c; /* darker teal on hover */
+}
+
+/* Mobile friendly */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+}
